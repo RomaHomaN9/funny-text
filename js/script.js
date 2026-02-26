@@ -1,7 +1,7 @@
 const $input = document.querySelector("#input");
 $input.value = "";
 
-const urlForAudio = (type, letter) => `../audio${type}/${letter}.mp3`;
+const urlForAudio = (type, letter) => `https://romahoman9.github.io/funny-text/audio${type}/${letter}.mp3`;
 
 const audios = {};
 
