@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.input {
+    resize: none;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #000;
+    color: #fff;
+    font-size: 70px;
+
+    border: 0;
+}
