@@ -66,7 +66,7 @@ const playAudio = (name) => {
     console.log(name);
 };
 
-$input.addEventListener("keydown", (e) => playAudio(e.code));
+$input.addEventListener("input", (e) => playAudio(e.code));
 
 window.addEventListener("resize", () => {
     $input.clientWidth = window.innerWidth;
